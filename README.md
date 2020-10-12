@@ -32,10 +32,13 @@ Paulo Vitor Costa Lima
 	
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
+
 4.	Rota para buscar um usuário através de CPF - Método GET
-http://localhost:5000/usuarios/{CPF_usuario} 
+
+	http://localhost:5000/usuarios/{CPF_usuario} 
 5.	FastAPI docs
-http://localhost:5000/docs
+
+	http://localhost:5000/docs
 
 # API - Heroku
 ⦁	Foi implementada uma API em python utilizando o FastAPI, onde armazenamos os dados de um usuário como: nome, sobrenome, CPF, email e data de nascimento. A aplicação foi hospedada na plataforma do Heroku, utilizando Integração Contínua com o GitHub Actions e o Deploy Automático configurado no próprio Heroku.
@@ -43,17 +46,23 @@ http://localhost:5000/docs
 ⦁	Para isso foram criadas três rotas, conforme solicitado. Segue as urls para cada rota:
 
 1.	Rota Raiz - Método GET
-https://stone-challenge-api.herokuapp.com/
+
+	https://stone-challenge-api.herokuapp.com/
 2.	Rota para retornar todos os usuários cadastrados - Método GET
-https://stone-challenge-api.herokuapp.com/usuarios
+
+	https://stone-challenge-api.herokuapp.com/usuarios
 3.	Rota para inserir um usuário - Método POST
-https://stone-challenge-api.herokuapp.com/usuarios/inserir_usuario
+
+	https://stone-challenge-api.herokuapp.com/usuarios/inserir_usuario
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
+ 
 4.	Rota para buscar um usuário através de CPF - Método GET
-https://stone-challenge-api.herokuapp.com/usuarios/{CPF_usuario}
+
+	https://stone-challenge-api.herokuapp.com/usuarios/{CPF_usuario}
 5.	FastAPI docs
-https://stone-challenge-api.herokuapp.com/docs
+
+	https://stone-challenge-api.herokuapp.com/docs
 
 
 
