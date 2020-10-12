@@ -1,5 +1,5 @@
 # Stone DevOps | SRE Challenge
-Paulo Vitor Costa Lima
+Paulo Vitor Costa Lima - https://github.com/paulovitorcl/stone-challenge-api.git
 
 # O desafio
 ⦁	A API foi desenvolvida utilizando a linguagem de propagação Python e sua aplicação se encontra no script denominado main.py, no repositório do Git compartilhado. 
