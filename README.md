@@ -54,6 +54,7 @@ Exemplo de como inserir:
 3.	Rota para inserir um usuário - Método POST
 
 	https://stone-challenge-api.herokuapp.com/usuarios/inserir_usuario
+	
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
  
