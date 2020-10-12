@@ -13,7 +13,9 @@ Paulo Vitor Costa Lima
 # API - Dockerfile
 ⦁	Conforme solicitado foi incluido no diretório um Dockerfile para que a API possa ser implementada localmente. Segue os passos para execução:
 	No diretório onde se encontra o Dockerfile executar o comando: 
+	
 	> docker build -t myimage .
+	
 	> docker run -d --name mycontainer -p 5000:5000 myimage 
 	
 ⦁	A aplicação poderá ser testada localmente pelos seguintes caminhos:
