@@ -12,6 +12,7 @@ Paulo Vitor Costa Lima
 
 # API - Dockerfile
 ⦁	Conforme solicitado foi incluido no diretório um Dockerfile para que a API possa ser implementada localmente. Segue os passos para execução:
+
 	No diretório onde se encontra o Dockerfile executar o comando: 
 	
 	> docker build -t myimage .
@@ -20,11 +21,15 @@ Paulo Vitor Costa Lima
 	
 ⦁	A aplicação poderá ser testada localmente pelos seguintes caminhos:
 1.	Rota Raiz - Método GET
-http://localhost:5000/ 
+
+	http://localhost:5000/ 
 2.	Rota para retornar todos os usuários cadastrados - Método GET
-http://localhost:5000/usuarios 
+
+	http://localhost:5000/usuarios 
 3.	Rota para inserir um usuário - Método POST
-http://localhost:5000/usuarios/inserir_usuario  
+
+	http://localhost:5000/usuarios/inserir_usuario  
+	
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
 4.	Rota para buscar um usuário através de CPF - Método GET
