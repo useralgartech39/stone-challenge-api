@@ -33,7 +33,7 @@ Paulo Vitor Costa Lima
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
 
-4.	Rota para buscar um usuário através de CPF - Método GET
+4.	Rota para buscar um usuário através do CPF - Método GET
 
 	http://localhost:5000/usuarios/{CPF_usuario} 
 5.	FastAPI docs
@@ -58,7 +58,7 @@ Exemplo de como inserir:
 Exemplo de como inserir:
  {"nome":"Carlos","sobrenome":"da Silva","CPF":"023.543.555-87","email":"teste@hotmail.com","data":"15/11/2020"}
  
-4.	Rota para buscar um usuário através de CPF - Método GET
+4.	Rota para buscar um usuário através do CPF - Método GET
 
 	https://stone-challenge-api.herokuapp.com/usuarios/{CPF_usuario}
 5.	FastAPI docs
